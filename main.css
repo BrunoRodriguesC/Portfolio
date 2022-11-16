@@ -332,11 +332,37 @@ form button:hover {
 
 
 @media screen and (max-width: 1257px){
+    header h1{
+        font-size: 17px;
+    }
+    a { 
+        font-size: 10px;
+}
 
     #Sobre_mim{
         margin: 0;
         display: block;
         height: 100%;
+    }
+
+    .texto-sobre-mim h1 {
+        font-size: 30px;
+    }
+    .texto-sobre-mim p {
+        margin: auto;
+        margin-top: 60px;
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .texto-sobre-conhecimentos p {
+        font-size: 15px;
+    }
+
+    .icone-tecnologia img {
+        height: 30px;
+        width: auto;
+        margin: 20px 20px 0px 20px;
     }
 
     #Projetos {
@@ -424,6 +450,14 @@ form button:hover {
         margin-top: 20%;
     }
 
+    #footer a {
+        font-size: 10px;
+    
+    }
+    
+    #footer h1{
+        font-size: 12px;
+    }
     
 
 }
