@@ -339,6 +339,14 @@ form button:hover {
         font-size: 10px;
 }
 
+    header .container {
+        justify-content: unset;
+    }
+    
+    header nav{
+        margin-left: 20%;
+    }
+
     #Sobre_mim{
         margin: 0;
         display: block;
@@ -456,8 +464,15 @@ form button:hover {
     }
     
     #footer h1{
-        font-size: 12px;
+        font-size: 10px;
     }
     
+    #footer .container {
+        justify-content: unset;
+    }
+    
+    #footer nav{
+        margin-left: 20%;
+    }
 
 }
