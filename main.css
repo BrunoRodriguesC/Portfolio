@@ -328,8 +328,14 @@ form button:hover {
     margin-left: 16px;
 }
 
-
-
+@media screen and (max-width: 1500px){
+    .contatos{
+        margin-left: 10%;
+    }
+    .centralizar-contato {
+        margin-left: 10%;
+    }
+}
 
 @media screen and (max-width: 1257px){
     header h1{
